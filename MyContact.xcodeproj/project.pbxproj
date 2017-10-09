@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87181C6C1F8B42C900609AE7 /* ContactListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87181C6A1F8B42C900609AE7 /* ContactListController.m */; };
+		87181C6D1F8B42C900609AE7 /* ContactListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87181C6B1F8B42C900609AE7 /* ContactListController.xib */; };
+		87181C711F8B42EA00609AE7 /* ContactDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87181C6F1F8B42EA00609AE7 /* ContactDetailsController.m */; };
+		87181C721F8B42EA00609AE7 /* ContactDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87181C701F8B42EA00609AE7 /* ContactDetailsController.xib */; };
+		87181C761F8B430400609AE7 /* ContactEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87181C741F8B430400609AE7 /* ContactEditController.m */; };
+		87181C771F8B430400609AE7 /* ContactEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87181C741F8B430400609AE7 /* ContactEditController.m */; };
+		87181C781F8B430400609AE7 /* ContactEditController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87181C751F8B430400609AE7 /* ContactEditController.xib */; };
+		87181C791F8B430400609AE7 /* ContactEditController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87181C751F8B430400609AE7 /* ContactEditController.xib */; };
+		87181C7A1F8B432C00609AE7 /* ContactDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87181C701F8B42EA00609AE7 /* ContactDetailsController.xib */; };
+		87181C7B1F8B433000609AE7 /* ContactDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87181C6F1F8B42EA00609AE7 /* ContactDetailsController.m */; };
+		87181C7C1F8B433400609AE7 /* ContactListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87181C6B1F8B42C900609AE7 /* ContactListController.xib */; };
+		87181C7D1F8B433700609AE7 /* ContactListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87181C6A1F8B42C900609AE7 /* ContactListController.m */; };
 		879744801F8B2D3F007FEAA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8797447F1F8B2D3F007FEAA9 /* main.m */; };
 		879744831F8B2D3F007FEAA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 879744821F8B2D3F007FEAA9 /* AppDelegate.m */; };
 		879744861F8B2D3F007FEAA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 879744851F8B2D3F007FEAA9 /* ViewController.m */; };
@@ -28,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87181C691F8B42C900609AE7 /* ContactListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListController.h; sourceTree = "<group>"; };
+		87181C6A1F8B42C900609AE7 /* ContactListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactListController.m; sourceTree = "<group>"; };
+		87181C6B1F8B42C900609AE7 /* ContactListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactListController.xib; sourceTree = "<group>"; };
+		87181C6E1F8B42EA00609AE7 /* ContactDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailsController.h; sourceTree = "<group>"; };
+		87181C6F1F8B42EA00609AE7 /* ContactDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailsController.m; sourceTree = "<group>"; };
+		87181C701F8B42EA00609AE7 /* ContactDetailsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactDetailsController.xib; sourceTree = "<group>"; };
+		87181C731F8B430400609AE7 /* ContactEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactEditController.h; sourceTree = "<group>"; };
+		87181C741F8B430400609AE7 /* ContactEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactEditController.m; sourceTree = "<group>"; };
+		87181C751F8B430400609AE7 /* ContactEditController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactEditController.xib; sourceTree = "<group>"; };
 		8797447B1F8B2D3E007FEAA9 /* MyContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8797447F1F8B2D3F007FEAA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		879744811F8B2D3F007FEAA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +114,15 @@
 				879744921F8B2D40007FEAA9 /* Info.plist */,
 				8797448A1F8B2D3F007FEAA9 /* MyContact.xcdatamodeld */,
 				8797447E1F8B2D3F007FEAA9 /* Supporting Files */,
+				87181C691F8B42C900609AE7 /* ContactListController.h */,
+				87181C6A1F8B42C900609AE7 /* ContactListController.m */,
+				87181C6B1F8B42C900609AE7 /* ContactListController.xib */,
+				87181C6E1F8B42EA00609AE7 /* ContactDetailsController.h */,
+				87181C6F1F8B42EA00609AE7 /* ContactDetailsController.m */,
+				87181C701F8B42EA00609AE7 /* ContactDetailsController.xib */,
+				87181C731F8B430400609AE7 /* ContactEditController.h */,
+				87181C741F8B430400609AE7 /* ContactEditController.m */,
+				87181C751F8B430400609AE7 /* ContactEditController.xib */,
 			);
 			path = MyContact;
 			sourceTree = "<group>";
@@ -200,7 +230,10 @@
 			files = (
 				879744911F8B2D40007FEAA9 /* LaunchScreen.storyboard in Resources */,
 				8797448E1F8B2D3F007FEAA9 /* Assets.xcassets in Resources */,
+				87181C781F8B430400609AE7 /* ContactEditController.xib in Resources */,
+				87181C6D1F8B42C900609AE7 /* ContactListController.xib in Resources */,
 				879744891F8B2D3F007FEAA9 /* Main.storyboard in Resources */,
+				87181C721F8B42EA00609AE7 /* ContactDetailsController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87181C791F8B430400609AE7 /* ContactEditController.xib in Resources */,
+				87181C7C1F8B433400609AE7 /* ContactListController.xib in Resources */,
+				87181C7A1F8B432C00609AE7 /* ContactDetailsController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87181C6C1F8B42C900609AE7 /* ContactListController.m in Sources */,
+				87181C761F8B430400609AE7 /* ContactEditController.m in Sources */,
+				87181C711F8B42EA00609AE7 /* ContactDetailsController.m in Sources */,
 				8797448C1F8B2D3F007FEAA9 /* MyContact.xcdatamodeld in Sources */,
 				879744861F8B2D3F007FEAA9 /* ViewController.m in Sources */,
 				879744831F8B2D3F007FEAA9 /* AppDelegate.m in Sources */,
@@ -229,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87181C771F8B430400609AE7 /* ContactEditController.m in Sources */,
+				87181C7B1F8B433000609AE7 /* ContactDetailsController.m in Sources */,
+				87181C7D1F8B433700609AE7 /* ContactListController.m in Sources */,
 				8797449C1F8B2D48007FEAA9 /* MyContactTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +462,7 @@
 				879744A21F8B2D4A007FEAA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		879744A31F8B2D4A007FEAA9 /* Build configuration list for PBXNativeTarget "MyContactTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +471,7 @@
 				879744A51F8B2D4A007FEAA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
